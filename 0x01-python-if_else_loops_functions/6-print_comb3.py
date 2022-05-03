@@ -3,4 +3,5 @@ for x in range(0, 9):
     for y in range(x + 1, 10):
         if x == 8:
             print(f"{x}{y}")
-        print(f"{x}{y}, ", end="")
+        else:
+            print(f"{x}{y}, ", end="")
