@@ -20,8 +20,9 @@ listint_t *insert_node(listint_t **head, int number)
 	new_node->next = NULL;
 
 	/* 4. If the Linked List is empty, then make the new node as head */
-	if (*head == NULL)
+	if (new_node == NULL || new_node->n >= number)
 	{
+		new_node->next = new_node;
 		*head = new_node;
 		return (new_node);
 	}
