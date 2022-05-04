@@ -27,10 +27,11 @@ listint_t *insert_node(listint_t **head, int number)
 	}
 
 	/* 5. Else traverse till the last node */
-	while (last->next != NULL)
+	while (last && last->next && last->next->n < number)
 		last = last->next;
 
 	/* 6. Change the next of last node */
+	new_node->next = new_node->next
 	last->next = new_node;
 	return (new_node);
 }
