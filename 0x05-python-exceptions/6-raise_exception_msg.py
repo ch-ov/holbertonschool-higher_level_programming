@@ -3,4 +3,4 @@ from email.errors import MessageError
 
 
 def raise_exception_msg(message=""):
-    raise MessageError(message)
+    raise NameError(message)
