@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys
 def safe_function(fct, *args):
-    result = Non
+    result = None
     try:
         result = fct(*args)
     except Exception as error:
