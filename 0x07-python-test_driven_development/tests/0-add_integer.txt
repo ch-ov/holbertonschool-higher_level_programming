@@ -1,0 +1,40 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+	>>> add_integer(-10, 21.5)
+	11
+
+	>>> add_integer(-624.22, -5687)
+	-6311
+
+	>>> add_integer(333.33, -222.22)
+	111
+
+	>>> add_integer(-40.9, 28.1)
+	-12
+
+	>>> add_integer(-50.11, -48.87)
+	-98
+	
+	>>> add_integer("ABCDE", 98)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(98, "ABCDE")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer("ABCDE", "ABCDE")
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer(None)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+	>>> add_integer()
+	Traceback (most recent call last):
+	TypeError: add_integer() missing 1 required positional argument: 'a'
+
+	>>> add_integer(1e300j**2, 1j)
+	Traceback (most recent call last):
+	OverflowError: complex exponentiation
