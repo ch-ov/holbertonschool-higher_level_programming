@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" class Rectangle that defines a rectangle by: (based on 8-rectangle.py) """
+
+
 class Rectangle:
+    """ A square is a rectangle """
     number_of_instances = 0
     print_symbol = '#'
 
@@ -69,7 +73,7 @@ class Rectangle:
             return rect_2
         else:
             return rect_1
-    
+
     @classmethod
     def square(cls, size=0):
         return Rectangle(width=size, height=size)
