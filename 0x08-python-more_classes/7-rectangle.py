@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" class Rectangle that defines a rectangle by: (based on 6-rectangle.py) """
+
+
 class Rectangle:
+    """ Change representation """
     number_of_instances = 0
     print_symbol = '#'
 
