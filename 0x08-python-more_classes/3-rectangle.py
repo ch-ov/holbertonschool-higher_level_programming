@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" class Rectangle that defines a rectangle by: (based on 2-rectangle.py) """
+
+
 class Rectangle:
+    """ String representation """
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
