@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" class Rectangle that defines a rectangle by: (based on 7-rectangle.py) """
+
+
 class Rectangle:
+    """ Compare rectangles """
     number_of_instances = 0
     print_symbol = '#'
 
