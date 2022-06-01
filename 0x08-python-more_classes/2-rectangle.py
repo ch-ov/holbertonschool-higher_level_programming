@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" class Rectangle that defines a rectangle by: (based on 1-rectangle.py) """
+
+
 class Rectangle:
+    """ Area and Perimeter """
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
