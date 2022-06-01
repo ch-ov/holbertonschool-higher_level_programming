@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" class Rectangle that defines a rectangle by: (based on 3-rectangle.py) """
+
+
 class Rectangle:
+    """ Eval is magic """
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
