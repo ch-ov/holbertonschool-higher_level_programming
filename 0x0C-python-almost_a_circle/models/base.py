@@ -12,4 +12,4 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-"""end 1. Base class"""
+    """end 1. Base class"""
