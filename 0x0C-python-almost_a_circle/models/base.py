@@ -47,7 +47,7 @@ class Base:
         if json_string is None or len(json_string) == 0:
             json_list_repr = []
             return json_list_repr
-        return json.dumps(json_string)
+        return json.loads(json_string)
     """end 17. JSON string to dictionary"""
 
     """18. Dictionary to Instance"""
