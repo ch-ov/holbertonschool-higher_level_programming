@@ -12,7 +12,6 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-        """end 2. First Rectangle"""
 
     """3. Validate attributes"""
     """validation of all setter methods and instantiation (id excluded)"""
