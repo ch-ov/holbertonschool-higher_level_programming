@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const request = require('request');
-request(process.argv[2], function (error, response, body) {
-  if (error) console.log(error);
+request(process.argv[2], function (err, response, body) {
+  if (err) console.log(error);
   else if (response.statusCode) {
     const films = JSON.parse(body).results;
     let count = 0;
